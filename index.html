@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadatos -->
+        <meta charset="utf-8">
+        <meta name="author" content="Jazmin y Tania">
+        <meta name="description" content="Portafolio de Destiny Japan">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titulo -->
+        <title>Destinos a Japón</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="Japan1.jpg">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- Iconos de Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- CSS -->
+        <link href="Style.css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        <img src="Monte-Fuji LOGO.jpg" width="50" height="50" halt="Logo de la pagina">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Sobre Japón">Sobre Japón</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Ciudades de Japón">Ciudades de Japón</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Seccion Hero -->
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-imagen-desarrollador rounded-circle" src="Japan1.jpg" alt="Monte Fuji">
+                <h1>Monte Fuji</h1>
+                <!-- <h2> ".typeString('"Atrevete a ir a uno de los lugares mas bonitos del mundo, experimenta nuevas experienias"')" </h2-->
+
+                <!--Animación con JavaScript-->
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+            </div>
+            <div class="hero-inferior">
+                <img class="hero-inferior-imagen img-fluid" src="Japan2.jpg" width="200px" alt="Cerezos, Templo Sensoji, en Tokio.">
+            </div>
+        </section>
+
+        <!-- Sobre Japón -->
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+              <h2 class="seccion-titulo"><h2 class="seccion-titulo">Conoce Japón</h2>
+        <p class="seccion-texto">La tierra del sol naciente, la lejana y mísica de Japón, suma incontables lugares turísticos para todos los gustos.</p>
+        </section>
+
+                <!-- Experiencia -->
+        <section class="experiencia seccion-clara">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Visita Japón -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi-arrow-right-circle-fill"></i>
+                        <img src="Japan1.jpg" width="200px">
+                        <p class="experiencia-titulo">Japón para visitar</p>
+                        <p> Lo rico de este país es la: </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Diversidad</span>
+                            <span class="badge text-bg-primary">Historia</span>
+                            <span class="badge text-bg-primary">Cultura</span>
+                            <span class="badge text-bg-primary">Gastronomía</span>
+                            <span class="badge text-bg-primary">Tecnología</span>
+                        </div>
+                    </div>
+                    <!-- No te puedes perder -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi-arrow-right-circle-fill"></i>
+                        <img src="ciudades de japon.jpg" width="200px">
+                        <p class="experiencia-titulo">Conoce</p>
+                        <p>Que puedes visitar</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Cuidades</span>
+                            <span class="badge text-bg-primary">Templos</span>
+                            <span class="badge text-bg-primary">Parques</span>
+                        </div>
+                     </div>
+                     <!-- Lugares populares -->
+                    <div class="columna col-12 col-md-4">
+                        <i class="bi-arrow-right-circle-fill"></i>
+                        <img src="mejores lugares de japon.webp" width="200px">
+                        <p class="experiencia-titulo">lugares</p>
+                        <p> Mejores lugares en Japón:</p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Monte Fuji</span>
+                            <span class="badge text-bg-primary">Shibuya</span>
+                            <span class="badge text-bg-primary">Kioto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    <!-- Ciudades -->
+      <section id="Ciudades de Japón" class="Ciudades-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Japón</h2>
+        <h3 class="seccion-descripcion">Japón (日本) es un país insular del este de Asia. Está ubicado entre el océano Pacífico y el mar del Japón, al este de China, Rusia y la península de Corea.</h3>
+        <!-- Galeria de ciudades -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="Hokkaido1.jpg" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Hokkaido</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i class="bi-arrow-right-circle-fill"></i>
+                    </a>
+                  </div>
+                </div>
+             </div>
+           </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="Kanto.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Kanto</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-arrow-right-circle-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="Chubu.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Chubu</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-arrow-right-circle-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="Kansai.jpeg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Kansai</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-arrow-right-circle-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="Chugoku.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Chugoku</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-arrow-right-circle-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="Kyushu.jpeg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Kyushu</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi-arrow-right-circle-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más Ciudades
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+        <!-- Guía turística -->
+        <section class="articulos justify-content-start">
+            <h2 class="seccion-titulo texto-negro">Guía turística</h2>
+            <div class="card">
+                <div class="card-header">
+                 Más recientes
+                </div>
+                <ul class="list-group list-group-flush">
+                    <a href="https://www.booking.com/city/jp/tokyo.es.html?aid=306396;label=tokyo-_ZjrNO99wF8iMo_5ZiFaWgS528791856160:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-782974714010:lp9142026:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YdnZzv7u3SiOco5fpqS0M1M;ws=&gad_source=1&gclid=Cj0KCQiAgqGrBhDtARIsAM5s0_mj5KWbHsS50zshDYtnGYFJZISA13sV6QznEJF5V6HBdvzVE9d-OWoaAlbNEALw_wcB" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">
+                            Mejores hoteles en Japón
+                        </li>
+                    </a>
+                    <a href="https://www.oyster.com/es/articles/top-japanese-spa-destinations/" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">
+                            Una guía de aguas termales en Japón
+                        </li>
+                    </a>
+                    <a href="https://www.jrailpass.com/blog/es/patrimonio-humanidad-unesco-japon" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">
+                            Lugares de Patrimonio Cultural en Japón
+                        </li>
+                    </a>
+                    <a href="https://www.gotokyo.org/es/story/guide/the-best-festivals-in-tokyo-and-japan/index.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">
+                            Los mejores festivales en Japón
+                        </li>
+                    </a>
+                    <a href="https://www.jal.co.jp/es/es/guide-to-japan/plan-your-trip/tips/the-climate-seasons-and-weather-in-japan.html" target="_blank" rel="noopener noreferrer">
+                        <li class="list-group-item">
+                            Estaciones y el tiempo en Japón
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-info">
+                  Ver más guías
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </a>
+        </section>
+
+        <!-- Testimonios -->
+        <section id="Testimonios">
+            <h2 class="seccion-titulo">Testimonios</h2>
+            <h3 class="seccion-descripcion">Estos son algunos testimonios de personas que han visitado Japón...</h3>
+        
+            <!-- Carrusel -->
+            <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="Marco y Eva.jpg" alt="Foto de visita a Japón">
+                            <p class="testimonio-texto"> Yo guardo muy buenos recuerdos de Chiaki, Chaco y de Hironori. Son las tres personas con las que quedamos en Japón. Nos mostraron una pequeña parte de su país y de su cultura con la mejor de sus sonrisas. </p>
+                            <div class="testimonio-info">
+                                <p class="cliente">Marco y Eva </p>
+                                <p class="cargo">Visitantes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="Maria Col.jpg" alt="Foto de visita a Japón">
+                            <p class="testimonio-texto">Salir con los guías de visita-japon por Tokyo, Osaka y Nara fue una experiencia de mucho aprendizaje sobre Japón y de forjar lazos de amistad.</p>
+                            <div class="testimonio-info">
+                                <p class="cliente">Maria de Colmbia </p>
+                                <p class="cargo">Visitante</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <img class="testimonio-imagen rounded-circle" src="David Esp.jpg" alt="Foto de visita a Japón">
+                            <p class="testimonio-texto"> Durante mi primer viaje a Japón, tuve la ocasión de conocer, por otras circunstancias, a una de las estudiantes de visita a Japón.</p>
+                            <div class="testimonio-info">
+                                <p class="cliente">David de España </p>
+                                <p class="cargo">Visitante</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+        <!-- Contacto -->
+        <section id="Contacto">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contáctame para ver cuales rutas o cuidades prefieres conocer en Japón
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:tanial@micorreo.com">
+                                <button type="button">  
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pie de pagina (footer) -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+            <img class="footer-logo" src="log.jpg" alt="Logo del portafolio">
+            <p class="footer-texto text-center">Disfruta cada lugar y atracción que hay en Japón<br>Hagamos recuerdos maravillosos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram" src="https://instagram.com/tania_al3?igshid=NzZlODBkYWE4Ng=="></i>
+                </a>
+            </div>
+            <div class="derechos-de-autor">Creado por Tania Lucia Alvarez y Jazmin Alvarez (2023) &#169;</div>
+        </footer>
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+            <script src="main.js"></script>
+    </body>
+    
+</html>
+      
+        
+
+
+
+
